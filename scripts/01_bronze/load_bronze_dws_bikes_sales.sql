@@ -45,7 +45,7 @@ BEGIN
 		TRUNCATE TABLE bronze.business_partners;
 		PRINT '>> Inserting Data Into: bronze.business_partners';
 		BULK INSERT bronze.business_partners
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\BusinessPartners.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\BusinessPartners.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
