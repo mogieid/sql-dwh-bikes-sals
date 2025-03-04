@@ -30,7 +30,7 @@ BEGIN
 		TRUNCATE TABLE bronze.addresses;
 		PRINT '>> Inserting Data Into: bronze.addresses';
 		BULK INSERT bronze.addresses
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\Addresses.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -61,7 +61,7 @@ BEGIN
 		TRUNCATE TABLE bronze.employees;
 		PRINT '>> Inserting Data Into: bronze.employees';
 		BULK INSERT bronze.employees
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\Employees.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\Employees.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -77,7 +77,7 @@ BEGIN
 		TRUNCATE TABLE bronze.product_categories;
 		PRINT '>> Inserting Data Into: bronze.product_categories';
 		BULK INSERT bronze.product_categories
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\ProductCategories.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\ProductCategories.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -92,7 +92,7 @@ BEGIN
 		TRUNCATE TABLE bronze.product_categories_text;
 		PRINT '>> Inserting Data Into: bronze.product_categories_text';
 		BULK INSERT bronze.product_categories_text
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\ProductCategoryText.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\ProductCategoryText.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -111,7 +111,7 @@ BEGIN
 		TRUNCATE TABLE bronze.products;
 		PRINT '>> Inserting Data Into: bronze.products';
 		BULK INSERT bronze.products
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\Products.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\Products.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -127,7 +127,7 @@ BEGIN
 		TRUNCATE TABLE bronze.products_text;
 		PRINT '>> Inserting Data Into: bronze.products_text';
 		BULK INSERT bronze.products_text
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\ProductTexts.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\ProductTexts.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -143,7 +143,7 @@ BEGIN
 		TRUNCATE TABLE bronze.sales_order_items;
 		PRINT '>> Inserting Data Into: bronze.sales_order_items';
 		BULK INSERT bronze.sales_order_items
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\SalesOrderItems.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\SalesOrderItems.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -159,7 +159,7 @@ BEGIN
 		TRUNCATE TABLE bronze.sales_orders;
 		PRINT '>> Inserting Data Into: bronze.sales_orders';
 		BULK INSERT bronze.sales_orders
-		FROM 'C:\Users\mogheer.eid\OneDrive - Accenture\Visual Team\Usecase\04_SQL\01_MyProjects\01_DW_BikeSales\01_Dataset\SalesOrders.csv'
+		FROM 'PUT THE LINK OF THE CSV FILE\SalesOrders.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
