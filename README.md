@@ -1,10 +1,6 @@
 # sql-dwh-bikes-sals
 This repo contains a usecase how to create data warehouse
 
-
-![data-warehousing](https://github.com/user-attachments/assets/a2f6ed91-777e-4c41-a048-46a8576a06c0)
-
-
 Using Kaggle dataset "SAP Bikes Sales sample data":  https://www.kaggle.com/datasets/yasinnaal/bikes-sales-sample-data
 
 
